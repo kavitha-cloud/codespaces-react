@@ -8,8 +8,9 @@ import square from './square';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <square/>
+    
+    <square />
+    <App />
   </React.StrictMode>
 );
 
