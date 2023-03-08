@@ -1,16 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import square from './square';
+import Square from './square';
+import Game from './game';
+import Board from './board';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
-    <square />
-    <App />
+    <Board />
+    <Game />
+    <Square />
+    {/* <App /> */}
   </React.StrictMode>
 );
 
